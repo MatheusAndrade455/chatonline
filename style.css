@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    padding: 5px;
+    background-color: #ccccff;
+    
+}
+.salas{
+    height: 20px;
+   padding: 20px;
+       
+}
+#conectar{
+    height: 30px;
+   padding: 20px;
+    text-align: center;
+}
+#msgs{
+    border: 1px solid #000;
+    height: 595px;
+    background-color: #ffffff;;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+#entrada{
+height: 29px;
+width: 1110px;
+}
+#btnEnviar{
+    height: 35px;
+    width: 130px;
+    background-color:  #2eb82e;
+}
+    #btnConectar{
+    width: 260px;
+    height: 50px;
+    margin-right:10px;
+    background-color: #b366ff;
+   color: #ffffff;
+   font-size: 19px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle; 
+}
+    
+
+#escolha{
+    text-align: center;
+}
+#b1{
+    width: 210px;
+    height: 40px;
+    margin-right: 39px;
+    background-color: #ff944d;
+    color: #ffffff;
+   font-size: 19px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+       }
+#b2{
+    width: 210px;
+    height: 40px;
+    margin-right: 39px;
+    background-color: #ff944d;
+   color: #ffffff;
+  font-size: 19px;
+  font-family: Georgia, Serif;
+  text-decoration: none;
+  vertical-align: middle;
+   }
+#b3{
+    width: 210px;
+    height: 40px;
+    margin-right: 39px;
+    background-color: #ff944d;
+    color: #ffffff;
+   font-size: 19px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
+   #b4{
+    width: 210px;
+    height: 40px;
+    margin-right: 39px;
+    background-color: #ff944d;
+    color: #ffffff;
+   font-size: 19px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
+   #b5{
+    width: 210px;
+    height: 40px;
+    background-color: #ff944d;
+    color: #ffffff;
+   font-size: 19px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
+#btnConectar:disabled {
+	background-color: #999999;
+}
+#btnEnviar:disabled {
+    background-color: #999999;
+}
+#b1:disabled {
+ background-color: #cc5200;
+}
+#b2:disabled {
+ background-color:#cc5200;
+}
+#b3:disabled {
+ background-color:#cc5200;
+}
+#b4:disabled {
+ background-color: #cc5200;
+}
+#b5:disabled {
+ background-color: #cc5200;
+}

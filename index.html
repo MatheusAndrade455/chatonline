@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Chat Online</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1 id="escolha">Escolha uma Sala para se Conectar</h1>
+       <div class="salas">
+    <button id="b1" onclick="sala1()">Sala 1</button>
+    <button id="b2" onclick="sala2()">Sala 2</button>
+    <button id="b3" onclick="sala3()">Sala 3</button>
+    <button id="b4" onclick="sala4()">Sala 4</button>
+    <button id="b5" onclick="sala5()">Sala 5</button>
+    </div>
+      <div id="conectar">
+        <button id="btnConectar" onclick="conectar();" disabled>Conectar</button>
+    </div>
+    <br>
+    <div id="chat">
+      <div id="msgs">
+      </div>
+      <br>
+      <input id="entrada" type="text" onkeydown="testeClick()">  
+      <button id="btnEnviar" onclick="enviar();" disabled>Enviar</button>
+     </div>
+  </body>
+</html>
